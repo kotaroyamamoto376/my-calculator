@@ -11,7 +11,7 @@ body {
 }
 
 .calculator-container {
-    background-color: rgba(255, 255, 255, 0.9);
+    background-color: rgba(20, 108, 153, 0.9);
     border-radius: 15px;
     box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
     padding: 30px;
@@ -69,6 +69,15 @@ body {
 
 .calculator__button--operator:hover {
     background-color: #f57c00;
+}
+
+.C{
+    background-color: #da0202;
+    color: #fff;
+}
+
+.C:hover{
+    background-color: #ba0101;
 }
 
 .calculator__button--equal {
